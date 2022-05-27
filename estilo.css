@@ -1,0 +1,137 @@
+*{	
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	font-family: sans-serif;
+	font-color: #ffffff;
+	background: #bf80ff;
+}
+
+button{
+	background-color: #ffffff;
+	color: #666699;
+	font-size: 20px;
+	padding: 1em 2em;
+	width: 90%;
+	border-radius: 5px;
+	position: relative;
+	margin: 30px 5% 15px 5%;
+}
+
+label{
+	padding: 0px 30px;
+}
+
+input{
+	color: #ffffff;
+	padding: 1px;
+	font-size: 1em;
+	margin: 10px 5% 10px 5%;
+	border-radius: 5px;
+	height: 2.5em;
+	width: 90%;
+	background: #bf80ff;
+}
+
+h1{
+	display: block;
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	padding: 55px 0px;
+	margin: 55px 0px;
+}
+
+h2{
+	text-align: center;
+	padding: 10px;
+	font-size: 40px;
+	margin: 0px 0px 20px;
+}
+
+p{	
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;	
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+div p a:hover{
+	color: #ffffff;
+}
+
+button:hover{
+	color: #ffffff;
+	background: #666699;
+}
+
+.login{
+	font-size: 1.2em;
+	font-family: sans-serif;
+	color: #ffffff;
+	display: block;
+	padding: 30px;
+	max-width: 600px;
+	margin: 60px auto;
+	background: #000000;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #6600cc;
+}
+
+.copy{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 20px 0px;
+	font-family: sans-serif;
+	background: #ffffff;
+	text-align: center;
+
+}
+
+#modal.animar{
+	animation-name: slide;
+	animation-duration: 1.0s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+	from{
+		transform: translateX(-30px);
+		opacity: 0;
+	}
+
+	to{
+		transform: translateX(0px);
+		opacity: 1;
+	}
+
+
+}
+
+.animacao{
+	animation-name: titulo;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes titulo {
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
